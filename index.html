@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Annanda Santos"> 
+    <title> Resilia Educação - Inscreva-se agora para a nossa próxima turma :) </title>
+    <link rel="shortcut icon" type="imagex/png" href="./logo.png"> 
+
+</head>
+ <body> 
+<style> 
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Roboto', sans-serif; 
+      
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Roboto&display=swap');
+
+   
+        .container {
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center; 
+         border: 2px solid black;
+         height: 612px;
+         background-image: linear-gradient(10deg, #FFFFFF, #FFFFFF, #ffd000d2);  
+
+        }
+
+        .resilia {
+            background-color: rgb(7, 3, 3);
+            color:#FFD000 ;
+            display: flex;
+            justify-content: space-around;
+            height: 40px;
+            align-items: center;
+        }
+        
+        .texto {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 2%;
+            width: 50%;
+            height: 500px;
+            
+
+
+        }
+    
+        .texto h1 {
+          font-size: 50px;  
+              
+        }    
+        .texto h3 {
+            margin-top: 200px;
+            font-weight: lighter;
+            color: #242424;
+            opacity: 0.8;
+        }
+
+       .texto u{
+        text-decoration: underline #FFD000 ;
+       }
+        .container-form { 
+            text-align: center;
+            border-radius: 25px;
+            height: 550px;
+            width: 400px;            
+            border: 2px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 5px 5px 15px rgb(0, 0, 0.2, 0.2);  
+          
+        }    
+
+        .container-form h4{
+            margin: 5% 0;
+            font-size: 20px;
+ 
+        }
+        .container-form p{
+            margin: 5% 2%;
+            font-size: 15px;
+            text-align: justify;
+            
+
+        }
+
+        label{
+            margin: 5px 2%;
+            font-size: 15px;
+            text-align: justify;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        } 
+
+        input {
+            max-width: 200px;
+            margin: 5px 2%;
+            height: 25px;
+            border-radius: 7px;
+            border: none;
+            
+        }
+        input:hover{
+            background-color: #FFD000;
+            border-color: #FFD000;
+            
+
+        }
+        select{
+            max-width: 200px;
+            margin: 5px 2%;
+            height: 25px;
+            border-radius: 7px;
+            border: none;
+        }
+       
+        .caixa{
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            
+            
+            
+        }
+        button{
+            font-weight: bolder;           
+            background-color: #FFD000; 
+            text-align: center;  
+            font-size: 18px;
+            border: none;
+            color: #0B0B0B; padding: 20px; 
+            border-radius: 10px;
+            width: 250px;
+            margin-top: 10px;
+           
+
+
+        }        
+        button:hover{
+        background-color:#ffd82a;  
+        cursor: pointer;  
+        }
+        .containerbutton{
+
+        }
+
+       
+           /* main section { border-style: solid; text-align: center; margin-bottom: 10px;
+
+            } */
+    
+                     
+    </style>
+   <div class="resilia">   <h2> <strong> R E S I L I A </strong></h2>   </div>
+
+<header class= "container">
+     
+    <div class="texto"> 
+
+    <h1> Prepare-se para a  experiência que vai <u> mudar a sua vida! </u>  </h1>
+
+    <h3> Quer começar de vez na área tech? 
+    Em 6 meses, você vai aprender TUDO que precisa para começar 
+    a trabalhar como <strong> Dev Jr com a metodologia Resilia! </strong> </h3> 
+     
+    </div>
+
+     <div class="container-form">
+          <h4> <strong> Formação WebDev Resilia </strong> </h4>
+        
+        <p> Preencha os seus dados para participar da seleção
+            para a nossa próxima turma! </p>
+            
+
+         <form> 
+             <label> Nome Completo </label>
+             <input type="text" placeholder="Digite o seu nome" required> 
+             <label> E-mail </label>
+             <input type="text" placeholder="Digite o seu E-mail" required>             
+             <label> Data de nascimento </label>
+             <input type="date" placeholder="dd/mm/aaaa">              
+             <label> Como você conheceu a Resilia? </label>
+             <select name="" id="">
+                 <option> Whatsapp </option>
+                 <option> Facebook </option>
+                 <option>  Linkedin </option>
+                 <option> Outros </option>
+
+             </select>
+             <label> Você concorda com a nossa politica de privacidade?</label>
+             <!-- <input type="checkbox" name="" id="" placeholder="Concordo" required>  -->
+             <div class="caixa"> 
+                 <input  type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Concordo!</label> </div>
+            
+             <div class="containerbuttom"> <button> Quero me inscrever! </button> 
+                
+            </div>
+             
+            </form>
+
+
+  
+</body>
+</html>
